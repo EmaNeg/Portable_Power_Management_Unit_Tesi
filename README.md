@@ -28,8 +28,9 @@ Il progetto è stato interamente sviluppato utilizzando **KiCad 9.0**. Il sistem
 ## Struttura della Repository
 
 ```text
-├── Hardware/               # File di progetto KiCad 9.0 (Schematici, Layout PCB)
-│   ├── Gerbers/            # File RS-274X pronti per la produzione industriale
+├── Hardware/
+|   ├── Kicad_files/        # File di progetto (Schematici, Layout PCB)
+│   ├── Production/         # File pronti per la produzione industriale
 │   ├── Assembly/           # File BOM (Bill of Materials) e CPL per assemblaggio SMT
 │   └── 3D_Models/          # Rendering 3D della scheda top/bottom
 ├── Simulations/            # File di simulazione SPICE (Proteus 8 Professional)
